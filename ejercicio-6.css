@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 100vw;
+    width: 100vw;
+    border: 1px solid greenyellow;
+    background-color:  yellow;
+}
+
+.imagen1 {
+    width: 300px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.imagen2 {
+    width: 300px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.imagen3 {
+    width: 300px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.imagen4 {
+    width: 300px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.imagen5 {
+    width: 300px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.imagen6 {
+    width: 300px;
+    cursor: pointer;
+    margin: 10px;
+}
