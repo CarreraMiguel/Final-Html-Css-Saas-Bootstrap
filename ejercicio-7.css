@@ -1,0 +1,16 @@
+.boton{
+    width: 150px;
+    height: 200px;
+}
+
+.boton:hover {
+    color: white;
+    background-color: green;
+    cursor: pointer;
+}
+
+span.b2:hover::after {
+    color: white;
+    content: ' !Hecho!';
+    background-color: green;
+}
