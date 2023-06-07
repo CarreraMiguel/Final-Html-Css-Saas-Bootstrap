@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    gap: 3px;
+}
+
+.lateral {
+    display: flex;
+    flex-grow: 0;
+    padding: 15px;
+    background-color: antiquewhite;
+    border: 1px solid gray;
+}
+
+.lateral ul li {
+    margin: 0;
+}
+
+.principal {
+    display: flex;
+    flex-grow: 1;
+    padding: 20px;
+    background-color: aquamarine;
+    border: 1px solid gray;
+}
+
+@media (max-width: 640px) {
+.container {
+    flex-direction: column-reverse;
+}
+
+.lateral {
+    flex-basis: auto;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0px;
+}
+
+.lateral ul li {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+}
+
+}
